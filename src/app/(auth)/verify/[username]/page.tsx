@@ -14,7 +14,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
-function page() {
+function VerifyEmail() {
   const router = useRouter();
   const params = useParams<{ username: string }>();
   const { toast } = useToast();
@@ -93,4 +93,4 @@ function page() {
   );
 }
 
-export default page;
+export default VerifyEmail;

@@ -31,7 +31,7 @@ const parseStringMessage = (message: string): string[] => {
   return message.split("||");
 };
 
-function page() {
+function SendMessage() {
   const [loading, setLoading] = useState(false);
   // const [isSuggestLoading, setIsSuggestLoading] = useState(false);
   const params = useParams<{ username: string }>();
@@ -177,4 +177,4 @@ function page() {
   );
 }
 
-export default page;
+export default SendMessage;
